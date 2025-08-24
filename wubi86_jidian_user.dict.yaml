@@ -1,7 +1,7 @@
 ---
 name: wubi86_jidian_user
-version: "2019-01-20"
-last_edit_time: "2021-08-07"
+version: "2025-08-23"
+last_edit_time: "2025-08-23"
 dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 
 
@@ -17,6 +17,88 @@ sort: original
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
-## 这是分组名
-分组词条	wxyt
+## 姓名
+施家雄	ypdc	10
+吕华丽	kwgm	2
+施会琼	ywgy	2
+杨秋吉	stfk	1
+吕金华	kqwx	1
+陈兴美	biug	1
+丁雪涛	sfid	1
+吕兴强	kixk	1
 
+## 地名
+剑桥	wgst	1
+剑桥大学	wsdi	1
+
+## 平台
+朗文	yvyy	1
+韦氏	fnqa	1
+韦氏词典	fqym	1
+
+## 符号
+!	kcy
+,	gkup
+〇	llll
+.	qkd
+／	sfhk
+．	sfhk
+－	sfhk
+，	sfhk
+＋	sfhk
+＊	sfhk
+）	sfhk
+（	sfhk
+＇	sfhk
+＆	sfhk
+％	sfhk
+＄	sfhk
+＃	sfhk
+＂	sfhk
+！	sfhk
+＠	sfhk
+？	sfhk
+＞	sfhk
+＝	sfhk
+＜	sfhk
+；	sfhk
+：	sfhk
+～	sfhk
+｝	sfhk
+｜	sfhk
+｛	sfhk
+｀	sfhk
+＿	sfhk
+＾	sfhk
+］	sfhk
+＼	sfhk
+［	sfhk
+〗	sfhk
+〖	sfhk
+】	sfhk
+【	sfhk
+』	sfhk
+『	sfhk
+」	sfhk
+「	sfhk
+》	sfhk
+《	sfhk
+。	sfhk
+、	sfhk
+…	sfhk
+”	sfhk
+“	sfhk
+’	sfhk
+‘	sfhk
+—	sfhk
+·	sfhk
+
+## 其它
+施家	ytpe	1
+肖申克救赎	ijdm	1
+手机屏幕	rsna	1
+手机支架	rsfl	1
+拼读	ruyf	11
+纠音	xnuj	1
+电脑屏幕	jena	1
+转成	lfdn	20

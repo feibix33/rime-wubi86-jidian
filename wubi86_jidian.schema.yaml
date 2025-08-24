@@ -4,7 +4,7 @@
 schema:
   schema_id: wubi86_jidian
   name: "极点五笔86"
-  version: "1.0"
+  version: "2.0"
   icon: "wubi86_jidian.ico"           # string 方案图标，格式： .ico
   ascii_icon:                         # string
   author:
@@ -15,40 +15,45 @@ schema:
 #    - pinyin_simp
 
 switches:
+  - name: extended_charset
+    states: [ 通用, 扩展 ]
   - name: ascii_mode
     reset: 0
-    states: [ 中, En ]
+    states: [ 中, 英 ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
     states: [ 简体, 繁体 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: extended_charset
-    states: [ 常用, 扩展 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
 
 engine:
   processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
+    - ascii_composer # 处理中英文切换
+    - recognizer     # 与 matcher 搭配，处理指定规则的输入组合，如网址、反查等tags
+    - key_binder     # 按键绑定定义，如重定义逗号、句号为候选翻页、开关快捷键等
+    - speller        # 拼写处理器，接受字符输入
+    - punctuator     # 句读处理器，将单个字符按键直接映射为标点符号或文字
+    - selector       # 选字处理器，处理数字选字时的操作（也可以换成别的）、上下候选键、翻页键
+    - navigator      # 处理光标移动
+    - express_editor # 编辑器，处理空格、回车上屏、删除键
+    # - fluid_editor   # 句子输入编辑器，用于以空格断词、回车上屏的【注音】、【语句流】等输入方案，替换 express_editor，打开后按退格键可直接对已输入的内容重新编辑
+    # - chord_composer # 和弦作曲家或曰并击处理器，用于【宫保拼音】等多键并击的输入方案
   segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
+    - ascii_segmentor    # 标识英文段落（如在英文模式下）字母直接上屏
+    - matcher            # 配合recognizer标识符合特定规则的段落，如网址、反查等，加上特定tag
+    - abc_segmentor      # 标识常规的文字段落，加上abc这个tag
+    - punct_segmentor    # 标识句子输入（键入标点符号用）加上punct这个tag
+    - fallback_segmentor # 标识其他未标识段落
+    - affix_segmentor    # 用户自定义tag
   translators:
-    - punct_translator
-    - reverse_lookup_translator
-    - table_translator
+    - echo_translator    # 没有其他候选字时，回显输入码（输入码可以Shift+Enter上屏 
+    - punct_translator           # 配合 punct_segmentor 转换标点符号
+    - reverse_lookup_translator  # 反查翻译器，用另一种编码方案查码
+    - script_translator   # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案 -- 此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）
+    - table_translator           # 码表翻译器，用于五笔、仓颉等基于码表的输入方案，-- 此项可加载多个实例，后接@+翻译器名（如：cangjie、wubi等
     - lua_translator@*wubi86_jidian_date_translator # 日期、时间、星期
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
   filters:
@@ -63,7 +68,7 @@ engine:
 speller:
   max_code_length: 4                    # 四码上屏
   auto_select: true                     # 四码唯一时，自动上屏
-#  auto_clear: max_length                # 空码时自动清空
+  # auto_clear: max_length                # 空码时自动清空
 
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
@@ -110,7 +115,7 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
 punctuator:
   import_preset: default
-#  import_preset: symbols
+  import_preset: symbols
 # 开始快捷输入符号功能，前面留两个空格
 # 对应需要将下面 recognizer -> patterns 下面的 punct 字段的注释去掉
 
@@ -120,7 +125,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
     reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
 
 # 重复上一次输入
