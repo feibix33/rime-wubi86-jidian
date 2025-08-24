@@ -29,6 +29,7 @@ sort: original
 平谷区	gwaq		110117
 密云区	pfaq		110118
 延庆区	tyaq		110119
+亦庄文化园	yyyl	10
 
 ## 天津市
 天津市	giym		120000
@@ -1092,6 +1093,7 @@ sort: original
 兰溪市	uiym		330781
 义乌市	yqym		330782
 东阳市	abym		330783
+永康市	yyym	10
 永康市	yyym		330784
 衢州市	tyym		330800
 衢州市市辖区	tyya		330801
@@ -1247,6 +1249,7 @@ sort: original
 舒城县	wfeg		341523
 金寨县	qpeg		341524
 霍山县	fmeg		341525
+亳州市	yyym	10
 亳州市	yyym		341600
 亳州市市辖区	yyya		341601
 谯城区	yfaq		341602
@@ -2104,6 +2107,7 @@ sort: original
 桂东县	saeg		431027
 安仁县	pweg		431028
 资兴市	uiym		431081
+永州市	yyym	10
 永州市	yyym		431100
 永州市市辖区	yyya		431101
 零陵区	fbaq		431102
@@ -2150,6 +2154,10 @@ sort: original
 
 ## 广东省
 广东省	yait		440000
+广州番禺	yytj	10
+高州市	yyym	10
+肇庆市	yyym	10
+广州市	yyym	10
 广州市	yyym		440100
 广州市市辖区	yyya		440101
 荔湾区	aiaq		440103
@@ -2175,6 +2183,7 @@ sort: original
 新丰县	udeg		440233
 乐昌市	qjym		440281
 南雄市	fdym		440282
+广州	yyyt	10
 
 ## 深圳市
 深圳市	ifym		440300

@@ -1,3 +1,17 @@
+function simpleNumberToChinese(num)
+    local chineseNumbers = {"零", "一", "二", "三", "四", "五", "六", "七", "八", "九"}
+    
+    if num <= 10 then
+        return chineseNumbers[num + 1]
+    elseif num < 20 then
+        return "十" .. (num > 10 and chineseNumbers[num - 10 + 1] or "")
+    else
+        local tens = math.floor(num / 10)
+        local units = num % 10
+        return chineseNumbers[tens + 1] .. "十" .. (units > 0 and chineseNumbers[units + 1] or "")
+    end
+end
+
 
 function wubi86_jidian_date_translator(input, seg)
 
@@ -57,7 +71,13 @@ function wubi86_jidian_date_translator(input, seg)
         yield(Candidate("week", seg.start, seg._end, "星期"..weekTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%A"), ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%a"), "缩写"))
-        yield(Candidate("week", seg.start, seg._end, os.date("%W"), "周数"))
+        local weekNum = os.date("%W") + 1
+        yield(Candidate("week", seg.start, seg._end, os.date("%W")+1, "周数"))
+        yield(Candidate("week", seg.start, seg._end, "第"..(os.date("%W")+1).."周", "周数"))
+        yield(Candidate("week", seg.start, seg._end, "第"..simpleNumberToChinese(weekNum).."周", "周数"))
+        yield(Candidate("week", seg.start, seg._end, os.date("%Y年").."第"..(os.date("%W")+1).."周", "周数"))
+        yield(Candidate("week", seg.start, seg._end, os.date("%Y年").."第"..simpleNumberToChinese(weekNum).."周", "周数"))
+
     end
 
     -- 输入月份英文

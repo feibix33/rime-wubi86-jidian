@@ -17,6 +17,7 @@ schema:
 switches:
   - name: extended_charset
     states: [ 通用, 扩展 ]
+    reset: 1
   - name: ascii_mode
     reset: 0
     states: [ 中, 英 ]
