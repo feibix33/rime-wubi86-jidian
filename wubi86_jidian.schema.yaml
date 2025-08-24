@@ -4,7 +4,7 @@
 schema:
   schema_id: wubi86_jidian
   name: "极点五笔86"
-  version: "2.0"
+  version: "1.0"
   icon: "wubi86_jidian.ico"           # string 方案图标，格式： .ico
   ascii_icon:                         # string
   author:
@@ -47,15 +47,16 @@ engine:
     - abc_segmentor      # 标识常规的文字段落，加上abc这个tag
     - punct_segmentor    # 标识句子输入（键入标点符号用）加上punct这个tag
     - fallback_segmentor # 标识其他未标识段落
-    - affix_segmentor    # 用户自定义tag
+    # - affix_segmentor    # 用户自定义tag
   translators:
-    - echo_translator    # 没有其他候选字时，回显输入码（输入码可以Shift+Enter上屏 
+    # - echo_translator    # 没有其他候选字时，回显输入码（输入码可以Shift+Enter上屏 
     - punct_translator           # 配合 punct_segmentor 转换标点符号
     - reverse_lookup_translator  # 反查翻译器，用另一种编码方案查码
-    - script_translator   # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案 -- 此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）
+    # - script_translator   # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案 -- 此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）
     - table_translator           # 码表翻译器，用于五笔、仓颉等基于码表的输入方案，-- 此项可加载多个实例，后接@+翻译器名（如：cangjie、wubi等
     - lua_translator@*wubi86_jidian_date_translator # 日期、时间、星期
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
+  filters:
   filters:
     - simplifier@tradition
 #    - lua_filter@*wubi86_jidian_single_char_first_filter # 单字优先
