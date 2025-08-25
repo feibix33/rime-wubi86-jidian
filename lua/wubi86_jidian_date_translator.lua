@@ -51,6 +51,7 @@ function wubi86_jidian_date_translator(input, seg)
         yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
         yield(Candidate("date", seg.start, seg._end, os.date("%Y%m%d"), ""))
         yield(Candidate("date", seg.start, seg._end, os.date("%m-%d-%Y"), ""))
+        yield(Candidate("date", seg.start, seg._end, os.date("%m/%d/%Y"), ""))
     end
 
     -- 输入时间
@@ -69,6 +70,7 @@ function wubi86_jidian_date_translator(input, seg)
         local weekTab = {'日', '一', '二', '三', '四', '五', '六'}
         yield(Candidate("week", seg.start, seg._end, "周"..weekTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, "星期"..weekTab[tonumber(os.date("%w")+1)], ""))
+        yield(Candidate("week", seg.start, seg._end, "礼拜"..weekTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%A"), ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%a"), "缩写"))
         local weekNum = os.date("%W") + 1
