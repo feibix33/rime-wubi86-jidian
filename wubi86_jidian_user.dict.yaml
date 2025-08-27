@@ -1,5 +1,6 @@
 ---
 name: wubi86_jidian_user
+note: "地区"
 version: "2025-08-23"
 last_edit_time: "2025-08-23"
 dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
@@ -37,12 +38,17 @@ sort: original
 韦氏	fnqa	1
 韦氏词典	fqym	1
 易至通	jgce	10
+上海临冠	hijp	10
+外研在线	qddx	20
+朗读宝	yypg	10
+班小二	gifg	10
+智言	tdyy	20
+智言信息科技有限公司	tywn	10
+智言信息科技	tywr	10
+智言科技	tytr	10
+厚仁	djwf	20
 
 ## 符号
-!	kcy
-,	gkup
-〇	llll
-.	qkd
 ／	sfhk
 ．	sfhk
 －	sfhk
@@ -103,3 +109,4 @@ sort: original
 拼读	ruyf	11
 电脑屏幕	jena	1
 转成	lfdn	20
+发音音标	nuus	20

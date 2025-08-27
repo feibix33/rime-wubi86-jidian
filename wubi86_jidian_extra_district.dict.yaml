@@ -12,6 +12,68 @@ sort: original
 ...
 ## 北京市
 北京市	uyym		110000
+天河北路	giuk
+北京医院	uyab
+北京工商大学	uyai
+北京工业大学	uyai
+北京医科大学	uyai
+北京东路	uyak
+北京颐和园	uyal
+北京工人体育馆	uyaq
+北京区	uyaq
+北京联合大学	uybi
+北京欢乐谷	uycw
+北京大学法学院	uydb
+北京大学	uydi
+北京大观园	uydl
+北京大学出版社	uydp
+北京大学图书馆	uydq
+北京肿瘤医院	uyeb
+北京地区	uyfa
+北京地坛医院	uyfb
+北京协和医院	uyfb
+北京朝阳公园	uyfl
+北京动物园	uyfl
+北京南彩镇	uyfq
+北京理工大学珠海学院	uygb
+北京理工大学	uygi
+北京平谷	uygw
+北京游乐园	uyil
+北京师范大学	uyji
+北京师范大学珠海分校	uyjs
+北京中医医院	uykb
+北京路	uykh
+北京中医药大学	uyki
+北京图书大厦	uyld
+北京图书馆	uylq
+北京车站	uylu
+北京同仁医院	uymb
+北京邮电大学	uymi
+北京火车站	uyou
+北京军区	uypa
+北京军区总医院	uypb
+北京儿童医院	uyqb
+北京外国语大学	uyqi
+北京乐与路	uyqk
+北京饭店	uyqy
+北京机场	uysf
+北京林业大学	uysi
+北京西路	uysk
+北京植物园	uysl
+北京积水潭医院	uytb
+北京航空航天大学	uyti
+北京科技大学	uyti
+北京自然博物馆	uytq
+北京交通大学	uyui
+北京首都体育馆	uyuq
+北京妇产医院	uyvb
+北京建筑大学	uyvi
+北京佑安医院	uywb
+北京化工大学	uywi
+北京信息科技大学	uywi
+北京体育大学	uywi
+北京体育馆	uywq
+北京市朝阳区	uyya
 北京市市辖区	uyya		110100
 东城区	afaq		110101
 西城区	sfaq		110102
@@ -20,6 +82,9 @@ sort: original
 石景山区	djma		110107
 海淀区	iiaq		110108
 门头沟区	uuia		110109
+北京语言大学	uyyi
+北京房山	uyym
+北京市	uyym
 房山区	ymaq		110111
 通州区	cyaq		110112
 顺义区	kyaq		110113
@@ -55,6 +120,25 @@ sort: original
 河北省	iuit		130000
 石家庄市	dpyy		130100
 石家庄市市辖区	dpya		130101
+河北工程大学	iuai
+河北工业大学	iuai
+河北医科大学	iuai
+河北区	iuaq
+河北联合大学	iubi
+河北大学	iudi
+河北大街	iudt
+河北省	iuit
+河北省邯郸市	iuiy
+河北省沧州市	iuiy
+河北省保定市	iuiy
+河北易县	iuje
+河北师范大学	iuji
+河北路	iukh
+河北农业大学	iupi
+河北宾馆	iupq
+河北村	iusf
+河北科技大学	iuti
+河北唐山	iuym
 长安区	tpaq		130102
 桥西区	ssaq		130104
 新华区	uwaq		130105
@@ -248,6 +332,21 @@ sort: original
 太原市	ddym		140100
 太原市市辖区	ddya		140101
 小店区	iyaq		140105
+山西医科大学	msai
+山西区	msaq
+山西阳泉	msbr
+山西大医院	msdb
+山西大学	msdi
+山西大酒店	msdy
+山西五台山	msgm
+山西省代县	msie
+山西省疾控中心	msin
+山西省	msit
+山西省大同市	msiy
+山西路	mskh
+山西财经大学	msmi
+山西农业大学	mspi
+山西村	mssf
 迎泽区	qiaq		140106
 杏花岭区	sama		140107
 尖草坪区	iafa		140108
@@ -384,9 +483,18 @@ sort: original
 交口县	ukeg		141130
 孝义市	fyym		141181
 汾阳市	ibym		141182
+
+## 内蒙古
 内蒙古自治区	mada		150000
 呼和浩特市	ktiy		150100
 呼和浩特市市辖区	ktia		150101
+内蒙古自治区	mada
+内蒙古科技大学	madi
+内蒙古民族大学	madi
+内蒙古师范大学	madi
+内蒙古工业大学	madi
+内蒙古大学	madi
+内蒙古饭店	mady
 新城区	ufaq		150102
 回民区	lnaq		150103
 玉泉区	graq		150104
@@ -512,6 +620,16 @@ sort: original
 
 ## 辽宁省
 辽宁省	bpit		210000
+辽宁工程技术大学	bpai
+辽宁鞍山	bpam
+辽宁区	bpaq
+辽宁大厦	bpdd
+辽宁石油化工大学	bpdi
+辽宁大学	bpdi
+辽宁省	bpit
+辽宁师范大学	bpji
+辽宁路	bpkh
+辽宁科技大学	bpti
 沈阳市	ibym		210100
 沈阳市市辖区	ibya		210101
 和平区	tgaq		210102
@@ -643,6 +761,20 @@ sort: original
 
 ## 吉林省
 吉林省	fsit		220000
+吉林工业大学	fsai
+吉林区	fsaq
+吉林大学珠海学院	fsdb
+吉林大学	fsdi
+吉林大路	fsdk
+吉林大街	fsdt
+吉林省	fsit
+吉林师范大学	fsji
+吉林路	fskh
+吉林财经大学	fsmi
+吉林农业大学	fspi
+吉林长白山	fstm
+吉林建筑大学	fsvi
+吉林市	fsym
 长春市	tdym		220100
 长春市市辖区	tdya		220101
 南关区	fuaq		220102
@@ -725,6 +857,12 @@ sort: original
 黑龙江省	ldii		230000
 哈尔滨市	kqiy		230100
 哈尔滨市市辖区	kqia		230101
+黑龙江	ldia
+黑龙江大学	ldii
+黑龙江八一农垦大学	ldii
+黑龙江中医药大学	ldii
+黑龙江省	ldii
+黑龙江路	ldik
 道里区	ujaq		230102
 南岗区	fmaq		230103
 道外区	uqaq		230104
@@ -874,9 +1012,17 @@ sort: original
 
 ## 上海市
 上海市	hiym		310000
+芷江西路	aisk
+博山东路	fmak
+天山西路	gmsk
 上海市市辖区	hiya		310100
 黄浦区	aiaq		310101
+中山东路	kmak
+中山西路	kmsk
+崂山西路	mmsk
+金沙江西路	qiik
 徐汇区	tiaq		310104
+长江西路	tisk
 长宁区	tpaq		310105
 静安区	gpaq		310106
 普陀区	ubaq		310107
@@ -894,8 +1040,22 @@ sort: original
 
 ## 江苏省
 江苏省	iait		320000
+黄河南路	aifk
 南京市	fyym		320100
 南京市市辖区	fyya		320101
+江苏区	iaaq
+江苏苏州市	iaay
+江苏大学	iadi
+江苏省人民医院	iaib
+江苏省	iait
+江苏师范大学	iaji
+江苏昆山	iajm
+江苏路	iakh
+江苏镇江市	iaqy
+江苏扬州市	iary
+江苏科技大学	iati
+江苏徐州市	iaty
+江苏市	iaym
 玄武区	ygaq		320102
 秦淮区	diaq		320104
 建邺区	voaq		320105
@@ -1018,6 +1178,24 @@ sort: original
 
 ## 浙江省
 浙江省	iiit		330000
+浙江工商大学	iiai
+浙江工业大学	iiai
+浙江萧山	iiam
+浙江区	iiaq
+浙江大学	iidi
+浙江理工大学	iigi
+浙江丽园	iigl
+浙江温岭	iiim
+浙江省	iiit
+浙江师范大学	iiji
+浙江路	iikh
+浙江中路	iikk
+浙江财经大学	iimi
+浙江农林大学	iipi
+浙江之江	iipi
+浙江宾馆	iipq
+浙江舟山	iitm
+浙江	iria
 杭州市	syym		330100
 杭州市市辖区	syya		330101
 上城区	hfaq		330102
@@ -1134,6 +1312,27 @@ sort: original
 
 ## 安徽省
 安徽省	ptit		340000
+安徽芜湖	ptai
+安徽工程大学	ptai
+安徽工业大学	ptai
+安徽医科大学	ptai
+安徽黄山	ptam
+安徽大学	ptdi
+安徽理工大学	ptgi
+安徽五河	ptgi
+安徽省立医院	ptib
+安徽省	ptit
+安徽省蚌埠市	ptiy
+安徽省六安市	ptiy
+安徽省亳州市	ptiy
+安徽师范大学	ptji
+安徽路	ptkh
+安徽财经大学	ptmi
+安徽宿县	ptpe
+安徽农业大学	ptpi
+安徽饭店	ptqy
+安徽建筑大学	ptvi
+安徽巢湖	ptvi
 合肥市	weym		340100
 合肥市市辖区	weya		340101
 瑶海区	giaq		340102
@@ -1167,6 +1366,7 @@ sort: original
 淮南市市辖区	ifya		340401
 大通区	dcaq		340402
 田家庵区	lpya		340403
+望江西路	yisk
 谢家集区	ypwa		340404
 八公山区	wwma		340405
 潘集区	iwaq		340406
@@ -1274,6 +1474,18 @@ sort: original
 
 ## 福建省
 福建省	pvit		350000
+福建医科大学	pvai
+福建区	pvaq
+福建晋江	pvgi
+福建武夷山	pvgm
+福建省	pvit
+福建师范大学	pvji
+福建路	pvkh
+福建中医药大学	pvki
+福建中路	pvkk
+福建园	pvlf
+福建农林大学	pvpi
+福建北路	pvuk
 福州市	pyym		350100
 福州市市辖区	pyya		350101
 鼓楼区	fsaq		350102
@@ -1383,6 +1595,19 @@ sort: original
 南昌市	fjym		360100
 南昌市市辖区	fjya		360101
 东湖区	aiaq		360102
+江西区	isaq
+江西萍乡	isax
+江西理工大学	isgi
+江西省	isit
+江西师范大学	isji
+江西路	iskh
+江西中路	iskk
+江西财经大学	ismi
+江西农业大学	ispi
+江西宾馆	ispq
+江西科技师范大学	isti
+江西九江	isvi
+江西庐山	isym
 西湖区	siaq		360103
 青云谱区	gfya		360104
 青山湖区	gmia		360111
@@ -1508,6 +1733,31 @@ sort: original
 济南市	ifym		370100
 济南市市辖区	ifya		370101
 历下区	dgaq		370102
+山东工业大学	maai
+山东区	maaq
+山东大厦	madd
+山东大学	madi
+山东泰山	madm
+山东理工大学	magi
+山东青岛	magq
+山东省立医院	maib
+山东省实验中学	maii
+山东省	mait
+山东师范大学	maji
+山东路	makh
+山东中医药大学	maki
+山东财经大学	mami
+山东农业大学	mapi
+山东金乡	maqx
+山东科技大学	mati
+山东单县	maue
+山东半岛	mauq
+山东建筑大学	mavi
+山东市	maym
+山东庄镇	mayq
+崂山东路	mmak
+舟山东路	tmak
+艮山东路	vmak
 市中区	ykaq		370103
 槐荫区	saaq		370104
 天桥区	gsaq		370105
@@ -1676,6 +1926,24 @@ sort: original
 
 ## 河南省
 河南省	ifit		410000
+河南工业大学	ifai
+河南区	ifaq
+河南营子乡	ifax
+河南大学	ifdi
+河南地区	iffa
+河南南路	iffk
+河南理工大学	ifgi
+河南平顶山	ifgm
+河南漯河	ifii
+河南省	ifit
+河南省洛阳市	ifiy
+河南师范大学	ifji
+河南路	ifkh
+河南农业大学	ifpi
+河南村	ifsf
+河南科技大学	ifti
+河南新乡	ifux
+漯河南街村	iifs
 郑州市	uyym		410100
 郑州市市辖区	uyya		410101
 中原区	kdaq		410102
@@ -1868,7 +2136,7 @@ sort: original
 新蔡县	uaeg		411729
 济源市	iiym		419001
 
-## 河北省
+## 湖北省
 湖北省	iuit		420000
 武汉市	giym		420100
 武汉市市辖区	giya		420101
@@ -1884,6 +2152,16 @@ sort: original
 蔡甸区	aqaq		420114
 江夏区	idaq		420115
 黄陂区	abaq		420116
+湖北工业大学	iuai
+湖北区	iuaq
+湖北大厦	iudd
+湖北大学	iudi
+湖北地区	iufa
+湖北省	iuit
+湖北路	iukh
+湖北中医药大学	iuki
+湖北饭店	iuqy
+湖北市	iuym
 新洲区	uiaq		420117
 黄石市	adym		420200
 黄石市市辖区	adya		420201
@@ -2001,6 +2279,17 @@ sort: original
 
 ## 湖南省
 湖南省	ifit		430000
+湖南工业大学	ifai
+湖南区	ifaq
+湖南大学	ifdi
+湖南地区	iffa
+湖南省	ifit
+湖南湘乡	ifix
+湖南师范大学	ifji
+湖南路	ifkh
+湖南中医药大学	ifki
+湖南农业大学	ifpi
+湖南科技大学	ifti
 长沙市	tiym		430100
 长沙市市辖区	tiya		430101
 芙蓉区	aaaq		430102
@@ -2154,6 +2443,20 @@ sort: original
 
 ## 广东省
 广东省	yait		440000
+广东工业大学	yaai
+广东区	yaaq
+广东大厦	yadd
+广东大酒店	yady
+广东省中医院	yaib
+广东湛江	yaii
+广东海洋大学	yaii
+广东省	yait
+广东路	yakh
+广东财经大学	yami
+广东外语外贸大学	yaqi
+广东迎宾馆	yaqq
+广东美术馆	yauq
+广东佛山	yawm
 广州番禺	yytj	10
 高州市	yyym	10
 肇庆市	yyym	10
@@ -2324,6 +2627,8 @@ sort: original
 新兴县	uieg		445321
 郁南县	dfeg		445322
 罗定市	lpym		445381
+
+## 广西区
 广西壮族自治区	ysua		450000
 南宁市	fpym		450100
 南宁市市辖区	fpya		450101
@@ -2331,6 +2636,17 @@ sort: original
 青秀区	gtaq		450103
 江南区	ifaq		450105
 西乡塘区	sxfa		450107
+广西医科大学	ysai
+广西区	ysaq
+广西大学	ysdi
+广西省	ysit
+广西师范大学	ysji
+广西路	yskh
+广西贵港	yski
+广西民族大学	ysni
+广西容县	yspe
+广西科技大学	ysti
+广西壮族自治区	ysua
 良庆区	yyaq		450108
 邕宁区	vpaq		450109
 武鸣区	gkaq		450110
@@ -2467,6 +2783,17 @@ sort: original
 
 ## 海南省
 海南省	ifit		460000
+海南区	ifaq
+海南大学	ifdi
+海南省	ifit
+海南师范大学	ifji
+海南路	ifkh
+海南国际旅游岛	iflq
+海南饭店	ifqy
+海南岛	ifqy
+海南村	ifsf
+海南椰岛	ifsq
+海南市	ifym
 海口市	ikym		460100
 海口市市辖区	ikya		460101
 秀英区	taaq		460105
@@ -2501,6 +2828,26 @@ sort: original
 
 ## 重庆市
 重庆市	tyym		500000
+重庆工商大学	tyai
+重庆医科大学	tyai
+重庆大学	tydi
+重庆大酒店	tydy
+重庆南路	tyfk
+重庆开县	tyge
+重庆理工大学	tygi
+重庆港	tyia
+重庆师范大学	tyji
+重庆忠县	tyke
+重庆路	tykh
+重庆路桥	tyks
+重庆邮电大学	tymi
+重庆宾馆	typq
+重庆饭店	tyqy
+重庆垫江	tyri
+重庆秀山	tytm
+重庆交通大学	tyui
+重庆北路	tyuk
+重庆市涪陵区	tyya
 重庆市市辖区	tyya		500100
 万州区	dyaq		500101
 涪陵区	ibaq		500102
@@ -2508,6 +2855,7 @@ sort: original
 大渡口区	dika		500104
 江北区	iuaq		500105
 沙坪坝区	iffa		500106
+重庆市	tyym
 九龙坡区	vdfa		500107
 南岸区	fmaq		500108
 北碚区	udaq		500109
@@ -2546,6 +2894,23 @@ sort: original
 四川省	lkit		510000
 成都市	dfym		510100
 成都市市辖区	dfya		510101
+四川医科大学	lkai
+四川区	lkaq
+四川通江	lkci
+四川大学	lkdi
+四川渠县	lkie
+四川省	lkit
+四川省成都市	lkiy
+四川师范大学	lkji
+四川路	lkkh
+四川中江	lkki
+四川路桥	lkks
+四川内江	lkmi
+四川峨眉山	lkmm
+四川农业大学	lkpi
+四川宾馆	lkpq
+四川外国语大学	lkqi
+四川北路	lkuk
 锦江区	qiaq		510104
 青羊区	guaq		510105
 金牛区	qraq		510106
@@ -2766,6 +3131,7 @@ sort: original
 甘洛县	aieg		513435
 美姑县	uveg		513436
 雷波县	fieg		513437
+四川	lhkt	10
 
 ## 贵州省
 贵州省	kyit		520000
@@ -2774,6 +3140,16 @@ sort: original
 南明区	fjaq		520102
 云岩区	fmaq		520103
 花溪区	aiaq		520111
+贵州医科大学	kyai
+贵州大学	kydi
+贵州省	kyit
+贵州师范大学	kyji
+贵州路	kykh
+贵州财经大学	kymi
+贵州凯里	kymj
+贵州民族大学	kyni
+贵州饭店	kyqy
+贵州市	kyym
 乌当区	qiaq		520112
 白云区	rfaq		520113
 观山湖区	cmia		520115
@@ -2872,6 +3248,16 @@ sort: original
 
 ## 云南省
 云南省	ffit		530000
+云南大学滇池学院	ffdb
+云南大学旅游文化学院	ffdb
+云南大学	ffdi
+云南盈江	ffei
+云南丽江	ffgi
+云南省	ffit
+云南师范大学	ffji
+云南虫谷	ffjw
+云南景谷	ffjw
+云南路	ffkh
 昆明市	jjym		530100
 昆明市市辖区	jjya		530101
 五华区	gwaq		530102
@@ -3025,12 +3411,29 @@ sort: original
 香格里拉市	tsjy		533401
 德钦县	tqeg		533422
 维西傈僳族自治县	xswe		533423
+
+## 西藏区
 西藏自治区	sata		540000
+云南民族村	ffns
 拉萨市	raym		540100
 拉萨市市辖区	raya		540101
 城关区	fuaq		540102
 堆龙德庆区	fdta		540103
 达孜区	dbaq		540104
+西藏萨迦寺	saaf
+西藏区	saaq
+西藏大昭寺	sadf
+西藏大学	sadi
+西藏南路	safk
+西藏博物馆	safq
+西藏路	sakh
+西藏中路	sakk
+西藏民族大学	sani
+西藏军区	sapa
+西藏宾馆	sapq
+西藏饭店	saqy
+西藏自治区	sata
+西藏北路	sauk
 林周县	smeg		540121
 当雄县	ideg		540122
 尼木县	nseg		540123
@@ -3116,6 +3519,16 @@ sort: original
 
 ## 陕西省
 陕西省	bsit		610000
+雅荷花园	aaal
+陕西区	bsaq
+陕西南路	bsfk
+陕西省	bsit
+陕西省西安市	bsiy
+陕西师范大学	bsji
+陕西路	bskh
+陕西科技大学镐京学院	bstb
+陕西北路	bsuk
+陕西华山	bswm
 西安市	spym		610100
 西安市市辖区	spya		610101
 新城区	ufaq		610102
@@ -3361,6 +3774,20 @@ sort: original
 
 ## 青海省
 青海省	giit		630000
+甘肃省	avit
+甘肃路	avkh
+甘肃农业大学	avpi
+甘肃文县	avye
+青海大学	gidi
+青海湖景区	giia
+青海湖	giid
+青海湖账房宾馆	giiq
+青海省	giit
+青海师范大学	giji
+青海路	gikh
+青海民族大学	gini
+青海宾馆	gipq
+青海长云暗雪山	gitm
 西宁市	spym		630100
 西宁市市辖区	spya		630101
 城东区	faaq		630102
@@ -3415,7 +3842,14 @@ sort: original
 都兰县	fueg		632822
 天峻县	gmeg		632823
 海西蒙古族藏族自治州直辖	isal		632825
+
+## 宁夏区
 宁夏回族自治区	pdla		640000
+宁夏大学	pddi
+宁夏省	pdit
+宁夏路	pdkh
+宁夏回族自治区	pdla
+宁夏宾馆	pdpq
 银川市	qkym		640100
 银川市市辖区	qkya		640101
 兴庆区	iyaq		640104
@@ -3448,11 +3882,26 @@ sort: original
 沙坡头区	ifua		640502
 中宁县	kpeg		640521
 海原县	ideg		640522
+
+## 新疆区
 新疆维吾尔自治区	uxxa		650000
+南湖南路	fifk
 乌鲁木齐市	qqsy		650100
 乌鲁木齐市市辖区	qqsa		650101
 天山区	gmaq		650102
 沙依巴克区	iwca		650103
+新疆医科大学	uxai
+新疆区	uxaq
+新疆大学	uxdi
+新疆大酒店	uxdy
+新疆屯河	uxgi
+新疆省	uxit
+新疆师范大学	uxji
+新疆路	uxkh
+新疆财经大学	uxmi
+新疆农业大学	uxpi
+新疆饭店	uxqy
+新疆维吾尔自治区	uxxa
 新市区	uyaq		650104
 水磨沟区	iyia		650105
 头屯河区	ugia		650106
@@ -3574,13 +4023,54 @@ sort: original
 
 ## 台湾省
 台湾省	ciit		710000
+台湾区	ciaq
+台湾大学	cidi
+台湾地区	cifa
+台湾玉山	cigm
+台湾省	ciit
+台湾路	cikh
+台湾饭店	ciqy
+台湾岛	ciqy
+台湾本岛	cisq
+台湾	ckiy
+南台湾	fciy
+国立台湾大学	luci
+宝岛台湾	pqci
+
+## 香港
 香港特别行政区	tita		810000
+大香港	dtia
+小香港	itia
+中国香港	klti
 中西区	ksaq		810001
 湾仔区	iwaq		810002
 东区	aiaq		810003
 南区	fmaq		810004
 油尖旺区	iija		810005
 深水埗区	iifa		810006
+金香港	qtia
+据香港	rtia
+香港东路	tiak
+香港花园	tial
+香港区	tiaq
+香港大学	tidi
+香港地区	tifa
+香港城市大学	tifi
+香港理工大学	tigi
+香港政府	tigy
+香港港	tiia
+香港海洋公园	tiil
+香港路	tikh
+香港中文大学	tiki
+香港中路	tikk
+香港国际机场	tilf
+香港岛	tiqy
+香港特别行政区	tita
+香港科技大学	titi
+香港会议展览中心	tiwn
+香港广场	tiyf
+香港市	tiym
+香港	tjia
 九龙城区	vdfa		810007
 黄大仙区	adwa		810008
 观塘区	cfaq		810009
@@ -3593,9 +4083,16 @@ sort: original
 沙田区	ilaq		810016
 葵青区	agaq		810017
 离岛区	yqaq		810018
+
+## 澳门区
 澳门特别行政区	iuta		820000
 花地玛堂区	afga		820001
 花王堂区	agia		820002
+澳门大学	iudi
+澳门路	iukh
+澳门特区	iuta
+澳门特别行政区	iuta
+澳门科技大学	iuti
 望德堂区	ytia		820003
 大堂区	diaq		820004
 风顺堂区	mkia		820005

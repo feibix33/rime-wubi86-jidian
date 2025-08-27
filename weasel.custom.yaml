@@ -6,7 +6,7 @@ customization:
   generator: "Weasel"
   modified_time: "2023-06-09"
   rime_version: "0.16.0"
-  config_version: "3"
+  config_version: "0.22"
 
 patch:
   # [global settings]
