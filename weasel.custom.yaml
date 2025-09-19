@@ -33,12 +33,12 @@ patch:
       shadow_radius: 3
       shadow_offset_x: 2          # number 阴影横向偏移量
       shadow_offset_y: 2          # number 阴影纵向偏移量
-      border_width: 1             # number 边框宽度 候选边框、面板边框
+      border_width: 0             # number 边框宽度 候选边框、面板边框
       candidate_spacing: 10       # number 候选之间的间隔
       hilite_spacing: 3           # number 序号与候选词之间的间隔 宽度
-      hilite_padding: 0           # number 候选词边界值 宽度
-      margin_x: 9                 # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
-      margin_y: 5                 # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      hilite_padding: 4           # number 候选词边界值 宽度
+      margin_x: 0                 # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_y: 0                 # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
 
   preset_color_schemes:   # 主题：颜色方案
     # 对 purity_of_form 略微调整颜色，让色彩更柔和点，补全其他选项和注释
