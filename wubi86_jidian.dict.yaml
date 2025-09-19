@@ -8759,6 +8759,7 @@ encoder:
 菫斟	agad	10
 萋菲	agad	10
 萋菶	agad	10
+莜麦菜	agae	20
 芋艿	agae	10
 散不散	agae	10
 莱菔	agae	10
@@ -173995,6 +173996,7 @@ u	copu	10
 培训科	fytu	10
 教育科	fytu	10
 教育税	fytu	10
+未应答	fytw	20
 南方稳健	fytw	10
 南蛮入侵	fytw	10
 无为自化	fytw	10
@@ -395120,11 +395122,9 @@ MacbookPro	mbp	10
 已发货	nnwx	10
 收发货	nnwx	10
 快货	nnwx	10
-心心念	nnwy	20
 快	nnwy	20
 书信	nnwy	10
 发飞信	nnwy	10
-居民们说	nnwy	10
 已停	nnwy	10
 已含	nnwy	10
 已售	nnwy	10
@@ -395134,7 +395134,6 @@ MacbookPro	mbp	10
 快信	nnwy	10
 快停	nnwy	10
 快领	nnwy	10
-惊心食人族	nnwy	10
 慷慨仗义	nnwy	10
 书令	nnwy	10
 书仪	nnwy	10
@@ -395193,10 +395192,8 @@ MacbookPro	mbp	10
 局席	nnya	10
 已诺	nnya	10
 忆度	nnya	10
-习惯就好了	nnyb	10
 书塾	nnyb	10
 快熟	nnyb	10
-慢慢就好了	nnyb	10
 快充	nnyc	20
 快译	nnyc	10
 书序	nnyc	10
@@ -395233,7 +395230,6 @@ MacbookPro	mbp	10
 快就	nnyi	10
 慢慢变淡	nnyi	10
 已就	nnyi	10
-改性剂	nnyj	10
 书课	nnyj	10
 书谒	nnyj	10
 忆识	nnyk	10
@@ -515244,6 +515240,7 @@ QQ	qq	10
 探亲访友	ruyd	10
 摇头稾脑	ruye	10
 白单衣	ruye	10
+拼读	ruyf	20
 反间计	ruyf	10
 后辛庄	ruyf	10
 扭头就走	ruyf	10
@@ -520158,6 +520155,7 @@ QQ	qq	10
 拗转	rxlf	10
 返乡团	rxlf	10
 指甲	rxlh	10
+指回	rxlk	20
 手纸架	rxlk	10
 报纸架	rxlk	10
 批回	rxlk	10
@@ -569696,6 +569694,7 @@ SD卡	sdhh	20
 行粮	tfoy	10
 迁	tfp	20
 迕	tfp	10
+丢字	tfpb	10
 造字	tfpb	10
 入声字	tfpb	10
 千字	tfpb	10
@@ -628011,6 +628010,7 @@ Ubuntu	ubun	10
 冻龄男婴	uhlm	10
 疲软	uhlq	10
 北卡罗	uhlq	10
+音频连接	uhlr	20
 疲困	uhls	10
 问鼎轻重	uhlt	10
 亲上加亲	uhlu	10
@@ -630920,6 +630920,7 @@ Ubuntu	ubun	10
 韵白	ujrr	10
 单拍	ujrr	10
 意折	ujrr	10
+问题描述	ujrs	20
 单打	ujrs	10
 前紧后松	ujrs	10
 半日制学校	ujrs	10
@@ -729247,6 +729248,7 @@ XBox	xbox	10
 张晓敏	xjtx	10
 缆系	xjtx	10
 㪄	xjty	10
+费减	xjud	20
 红星美凯龙	xjud	10
 费翔	xjud	10
 缊着	xjud	10
@@ -738150,6 +738152,7 @@ XBox	xbox	10
 弹射	xutm	10
 红颜知己	xutn	10
 绊翻	xuto	10
+费减备案	xutp	10
 弱管	xutp	10
 弹我	xutr	10
 毕竟我	xutr	10

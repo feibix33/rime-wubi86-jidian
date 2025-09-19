@@ -56,11 +56,49 @@ function wubi86_jidian_date_translator(input, seg)
 
     -- 输入时间
     if (input == "time") then
-        --- Candidate(type, start, end, text, comment)
-        yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), ""))
-        yield(Candidate("time", seg.start, seg._end, os.date("%Y%m%d%H%M%S"), ""))
-        yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
-        yield(Candidate("time", seg.start, seg._end, os.date("%H%M%S"), ""))
+        local current_time = os.date("*t")
+        local year, month, day = current_time.year, current_time.month, current_time.day
+        local hour, minute, second = current_time.hour, current_time.min, current_time.sec
+        
+        -- 12小时制转换
+        local am_pm = hour >= 12 and "下午" or "上午"
+        local hour_12 = hour % 12
+        if hour_12 == 0 then hour_12 = 12 end
+        
+        -- 时辰计算
+        local chinese_hour = math.floor(hour / 2) + 1
+        local chinese_periods = {
+            "子时(夜半)", "丑时(鸡鸣)", "寅时(平旦)", "卯时(日出)", 
+            "辰时(食时)", "巳时(隅中)", "午时(日中)", "未时(日昳)", 
+            "申时(晡时)", "酉时(日入)", "戌时(黄昏)", "亥时(人定)"
+        }
+        local current_chinese_period = chinese_periods[chinese_hour]
+        
+        -- 固定宽度用于右对齐
+        local fixed_width = 15
+        
+        -- 所有时间格式（统一使用 string.format）
+        local time_formats = {
+            -- 纯时间格式
+            string.format("%02d%02d%02d", hour, minute, second),
+            string.format("%04d%02d%02d%02d%02d%02d", year, month, day, hour, minute, second),
+            -- 24小时制时间格式
+            string.format("%02d:%02d", hour, minute),
+            string.format("%02d点%02d分", hour, minute),
+            string.format("%02d:%02d:%02d", hour, minute, second),
+            string.format("%02d点%02d分%02d秒", hour, minute, second),
+            -- 12小时制时间格式
+            string.format("%s%02d:%02d", am_pm, hour_12, minute),
+            string.format("%s%02d点%02d分", am_pm, hour_12, minute),
+            string.format("%s%02d:%02d:%02d", am_pm, hour_12, minute, second),
+            string.format("%s%02d点%02d分%02d秒", am_pm, hour_12, minute, second),
+        }
+        
+        -- 生成候选词
+        for i, time_format in ipairs(time_formats) do
+            local comment = string.rep(" ", fixed_width - #current_chinese_period) .. current_chinese_period
+            yield(Candidate("time", seg.start, seg._end, time_format, comment))
+        end
     end
 
     -- 输入星期
